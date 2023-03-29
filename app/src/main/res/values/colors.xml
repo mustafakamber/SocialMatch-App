@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FFA611</color>
+    <color name="purple_700">#FFA611</color>
+
+    Yanıp sönen imleç
+    <color name="teal_200">#FFFFFFFF</color>
+    <color name="teal_500">#FFFFFFFF</color>
+    <color name="teal_700">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="my_text_color">#FF000000</color>
+
+
+    <color name = "buttonTextColor" > #0A810F</color>
+    <color name = "editTextColor" > #FFFFFFFF</color>
+    <color name = "normalTextColor" >#FFFFFFFF</color>
+    <color name = "buttonColor" >#FFFFFFFF</color>
+    <color name = "topColor" >#505150</color>
+    <color name = "bottomColor" > #0A810F</color>
+    <color name = "middleColor" >#0A810F</color>
+    <color name = "actionBarColor" >#043C07</color>
+
+
+</resources>

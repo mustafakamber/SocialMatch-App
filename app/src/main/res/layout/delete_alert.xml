@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/deleteAlertIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:drawableTop="@drawable/bigdelete"
+        android:text="Hesabınızı silmek istediğinize emin misiniz?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"></TextView>
+
+
+    <Button
+        android:id="@+id/deleteAlertYesButton"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="@color/bottomColor"
+        android:gravity="center"
+        android:text="Evet"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/normalTextColor"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/deleteAlertNoButton"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alertedittextbackground"
+        android:gravity="center"
+        android:text="Hayır"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/middleColor"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+
+
+</LinearLayout>

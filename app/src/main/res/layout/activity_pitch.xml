@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/constraintbackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.PitchActivity">
+
+    <TextView
+        android:id="@+id/pitchText"
+        android:layout_width="299dp"
+        android:layout_height="58dp"
+        android:background="@color/actionBarColor"
+        android:drawableLeft="@drawable/backspace"
+        android:gravity="left|center"
+        android:text="  Halısahalarım"
+        android:textColor="@color/normalTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/pitchOptionText"
+        android:layout_width="96dp"
+        android:layout_height="58dp"
+        android:background="@color/actionBarColor"
+        android:drawableRight="@drawable/addx"
+        android:gravity="center"
+        android:text="Saha ekle"
+        android:textColor="@color/normalTextColor"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pitchText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/framePitchLayout"
+        android:layout_width="396dp"
+        android:layout_height="695dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitchText">
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

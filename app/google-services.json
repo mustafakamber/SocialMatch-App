@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "687066988135",
+    "project_id": "sosyalsaha-1e013",
+    "storage_bucket": "sosyalsaha-1e013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687066988135:android:e8e157a0c8e627d6b91ec2",
+        "android_client_info": {
+          "package_name": "com.example.sosyalsaha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687066988135-p3bfb046uva7ragu5qvjgkvu3vef6itt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sosyalsaha.view",
+            "certificate_hash": "600733a78b3425a6596166fe7810a5bcfff53625"
+          }
+        },
+        {
+          "client_id": "687066988135-0bn63ovn8ia7sl2sbup806234acf677i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbMYWdv3KiDudiSLABG_z7P-dg5b7bwXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687066988135-0bn63ovn8ia7sl2sbup806234acf677i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

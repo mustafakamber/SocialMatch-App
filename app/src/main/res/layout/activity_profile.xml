@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintbackground"
+    tools:context=".view.ProfileActivity">
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left|center"
+        android:text="  Isim Soyisim"
+        android:textColor="@color/normalTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profilePictureButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/profilePictureButton"
+        android:layout_width="66dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/icon"
+        app:layout_constraintEnd_toStartOf="@+id/profileText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <TextView
+        android:id="@+id/profileWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="16dp"
+        android:text="Hoşgeldiniz!"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileText" />
+
+    <TextView
+        android:id="@+id/profileExitText"
+        android:layout_width="67dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:drawableTop="@drawable/exit"
+        android:text=""
+        android:textColor="@color/normalTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profileText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/profileManSearchButton"
+        android:layout_width="268dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/loginedittextbackground"
+        android:backgroundTint="@color/normalTextColor"
+        android:drawableLeft="@drawable/mansearch"
+        android:gravity="center"
+        android:text=" Oyuncu Aramaya Basla"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/middleColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileWelcome" />
+
+    <Button
+        android:id="@+id/profileMyPitchButton"
+        android:layout_width="195dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/loginedittextbackground"
+        android:backgroundTint="@color/normalTextColor"
+        android:drawableLeft="@drawable/soccer"
+        android:gravity="center"
+        android:text=" Halısahalarım"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/middleColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileManSearchButton"></Button>
+
+    <Button
+        android:id="@+id/profileDeleteButton"
+        android:layout_width="175dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/loginedittextbackground"
+        android:backgroundTint="@color/normalTextColor"
+        android:drawableLeft="@drawable/delete"
+        android:gravity="center"
+        android:text=" Hesabımı Sil"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/middleColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileMyPitchButton"></Button>
+
+    <ImageView
+        android:id="@+id/profileSplashImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileDeleteButton"
+        app:srcCompat="@drawable/middlecircle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

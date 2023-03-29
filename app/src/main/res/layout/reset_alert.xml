@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/resetInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/middleColor"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/resetEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/loginedittextbackground"
+        android:ems="10"
+        android:hint="E-mail Adresinizi Giriniz."
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/middleColor"
+        android:textColorHint="@color/topColor"
+        android:textSize="15dp"
+         />
+
+    <Button
+        android:id="@+id/resetSendButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="@color/bottomColor"
+        android:text="Gönder"
+        android:textAllCaps="true"
+        android:textColor="@color/normalTextColor"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+
+
+    <Button
+        android:id="@+id/resetBackButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:background="@drawable/alertedittextbackground"
+        android:text="Geri Dön"
+        android:textAllCaps="true"
+        android:textColor="@color/middleColor"
+        android:textSize="15sp"
+        android:textStyle="bold"></Button>
+
+
+
+
+</LinearLayout>

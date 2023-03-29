@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secondpitch"
+    tools:context=".view.PositionFragment">
+
+    <Switch
+        android:id="@+id/positionGoalKeeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="16dp"
+        android:drawableTop="@drawable/goalkeeper"
+        android:text="  Kaleci"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionCentralBack">
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/positionRightBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:drawableTop="@drawable/defence"
+        android:text="  Sağ Bek"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionDeffensiveMiddle">
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/positionCentralBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="16dp"
+        android:drawableTop="@drawable/defence"
+        android:text="  Stoper"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/positionRightBack"
+        app:layout_constraintStart_toEndOf="@+id/positionLeftBack"
+        app:layout_constraintTop_toBottomOf="@+id/positionDeffensiveMiddle">
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/positionLeftBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="72dp"
+        android:drawableTop="@drawable/defence"
+        android:text="  Sol Bek"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionMiddle">
+
+    </Switch>
+
+
+    <Switch
+        android:id="@+id/positionDeffensiveMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="85dp"
+        android:drawableTop="@drawable/middlefield"
+        android:text="  D.Orta Saha"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionOffensiveMiddle">
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/positionMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="48dp"
+        android:drawableTop="@drawable/middlefield"
+        android:text="  Orta Saha"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionOffensiveMiddle">
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/positionOffensiveMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:drawableTop="@drawable/middlefield"
+        android:text="  O.Orta Saha"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionSantrafor">
+
+    </Switch>
+
+
+    <Switch
+        android:id="@+id/positionRightWinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="35dp"
+        android:drawableTop="@drawable/santrafor"
+        android:text="  Sağ Kanat"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionSantrafor">
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/positionSantrafor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableTop="@drawable/santrafor"
+        android:text="  Santrafor"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Switch>
+
+    <Switch
+        android:id="@+id/positionLeftWinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="24dp"
+        android:drawableTop="@drawable/santrafor"
+        android:text="  Sol Kanat"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionSantrafor">
+
+    </Switch>
+
+
+    <TextView
+        android:id="@+id/positionForward"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:drawableLeft="@drawable/forward"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionGoalKeeper"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
