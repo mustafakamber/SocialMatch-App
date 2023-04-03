@@ -1,4 +1,4 @@
-<h1 align="center">SocialMatch-Application<img src="https://media.giphy.com/media/eUvDjeBbgw5vce0Nz1/giphy.gif" width="35px" height="35px"> </h1>
+<h1 align="center">SocialMatch<img src="https://media.giphy.com/media/eUvDjeBbgw5vce0Nz1/giphy.gif" width="35px" height="35px"> </h1>
 
 <h2 align="center">Communication and Location Application of Football Players</h2>
 
