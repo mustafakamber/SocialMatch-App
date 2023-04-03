@@ -6,7 +6,6 @@
 
 
 <hr></hr>
-<br>
 
 
 <h2 align="left">Technologies I Use:</h2>
