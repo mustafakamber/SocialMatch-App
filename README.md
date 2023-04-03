@@ -15,7 +15,7 @@
 
 - Picasso
 
-- Google Maps Service
+- Google Maps Services
 
 - XML
 
