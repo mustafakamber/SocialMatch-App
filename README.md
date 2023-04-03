@@ -24,7 +24,7 @@
 <h2 align="left">Some Images about App:</h2>
 
 
-| Ekran Adı           | Ekran Görüntüsü                                                    |
+| Screen Name          | Screen Shot                                                   |
 |------------------|------------------------------------------------------------------|
 | LoginScreen      | ![LoginScreen](https://imagesharing.com/uploads/20230403/8e2459b2a20a8b594b90f09a62b74066ea9c6a1f.png)      |
 | SignupScreen     | ![SignupScreen](https://imagesharing.com/uploads/20230403/784e1d7ab7fea6012d4dce17105690dfef83fd54.png)     |
