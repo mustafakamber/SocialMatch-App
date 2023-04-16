@@ -31,15 +31,16 @@
 
 | Screen           | Shot                                                   |
 |------------------|------------------------------------------------------------------|
-| Login      | ![LoginScreen](https://imagesharing.com/uploads/20230403/8e2459b2a20a8b594b90f09a62b74066ea9c6a1f.png)      |
+| Login      | ![LoginScreen](https://i.ibb.co/NKhTFPH/Login-Activity.png)      |
 | Signup     | ![SignupScreen](https://i.ibb.co/7SbkDnC/Info-Fragment.png)     |
-| Profile    | ![ProfileScreen](https://imagesharing.com/uploads/20230403/11d0b7410d98ac779ebf3acb1a73c5f67f444b8e.png)    |
-| PlayerDetails | ![PlayerDetailsScreen](https://i.ibb.co/6m1WM5Z/Player-Details.png") |
-| Maps       | ![MapsScreen](https://imagesharing.com/uploads/20230403/96762c67a1b95e75680fd6b450de9c513b447a6c.png)       |
-| Roadmap    | ![RoadmapScreen](https://imagesharing.com/uploads/20230403/831f9f4f3fa5622ab2a3a1d6c77b53c0af4e95a2.png)    |
+| Profile    | ![ProfileScreen](https://i.ibb.co/3rDmmr3/Profile-Activity.png)    |
+| PlayerList    | ![PlayerListScreen](https://i.ibb.co/nC19cPP/Playerlist.png)    |
+| PlayerDetails | ![PlayerDetailsScreen](https://i.ibb.co/6m1WM5Z/Player-Details.png) |
+| Maps       | ![MapsScreen](https://i.ibb.co/MGSfyLC/Maps-Fragment.png)   |
+| Roadmap    | ![RoadmapScreen](https://i.ibb.co/PTKgDfF/Roadmap.png)    |
 
 
 <h2 align="left">Introduction Video Link:</h2>
 
 
-[![SocialMatch-Application Video](https://imagesharing.com/uploads/20230403/496adce9811dad55e9886e1954c0e3603624afe3.png)](https://www.youtube.com/watch?v=ZtLP-4F1WGA)
+[![SocialMatch-Application Video](https://i.ibb.co/Y0sBNdf/resim-2023-04-16-154155333.png)](https://www.youtube.com/watch?v=ZtLP-4F1WGA)
