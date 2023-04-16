@@ -40,7 +40,7 @@
 | RoadmapScreen    | ![RoadmapScreen](https://imagesharing.com/uploads/20230403/831f9f4f3fa5622ab2a3a1d6c77b53c0af4e95a2.png)    |
 
 
-<h2 align="left">Introduction Video:</h2>
+<h2 align="left">Introduction Video Link:</h2>
 
 
 [![SocialMatch-Application Video](https://imagesharing.com/uploads/20230403/496adce9811dad55e9886e1954c0e3603624afe3.png)](https://www.youtube.com/watch?v=ZtLP-4F1WGA)
