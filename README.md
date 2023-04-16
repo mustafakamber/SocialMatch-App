@@ -34,7 +34,6 @@
 | Login      | ![LoginScreen](https://imagesharing.com/uploads/20230403/8e2459b2a20a8b594b90f09a62b74066ea9c6a1f.png)      |
 | Signup     | ![SignupScreen](https://imagesharing.com/uploads/20230403/784e1d7ab7fea6012d4dce17105690dfef83fd54.png)     |
 | Profile    | ![ProfileScreen](https://imagesharing.com/uploads/20230403/11d0b7410d98ac779ebf3acb1a73c5f67f444b8e.png)    |
-| PlayerList | ![PlayerListScreen](https://imagesharing.com/uploads/20230403/904354ed0d8688d06332a8bbfed4ccefde657850.png) |
 | PlayerDetails | ![PlayerDetailsScreen](https://imagesharing.com/uploads/20230403/a7d1dc590b3af42d41db4d0b22d67d52d53feda4.png) |
 | Maps       | ![MapsScreen](https://imagesharing.com/uploads/20230403/96762c67a1b95e75680fd6b450de9c513b447a6c.png)       |
 | Roadmap    | ![RoadmapScreen](https://imagesharing.com/uploads/20230403/831f9f4f3fa5622ab2a3a1d6c77b53c0af4e95a2.png)    |
