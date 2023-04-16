@@ -29,15 +29,15 @@
 <h2 align="left">Some Images about App:</h2>
 
 
-| Screen           | Shot                                                   |
-|------------------|------------------------------------------------------------------|
-| Login      | ![LoginScreen](https://i.ibb.co/NKhTFPH/Login-Activity.png)      |
-| Signup     | ![SignupScreen](https://i.ibb.co/7SbkDnC/Info-Fragment.png)     |
-| Profile    | ![ProfileScreen](https://i.ibb.co/3rDmmr3/Profile-Activity.png)    |
-| PlayerList    | ![PlayerListScreen](https://i.ibb.co/nC19cPP/Playerlist.png)    |
-| PlayerDetails | ![PlayerDetailsScreen](https://i.ibb.co/6m1WM5Z/Player-Details.png) |
-| Maps       | ![MapsScreen](https://i.ibb.co/MGSfyLC/Maps-Fragment.png)   |
-| Roadmap    | ![RoadmapScreen](https://i.ibb.co/PTKgDfF/Roadmap.png)    |
+| Login  | Signup | Profile |
+| ----- | ------------ | ------------ |
+|<img src="https://i.ibb.co/NKhTFPH/Login-Activity.png" width="250" height="520"/>|<img src="https://i.ibb.co/7SbkDnC/Info-Fragment.png" width="250" height="520"/>|<img src="https://i.ibb.co/3rDmmr3/Profile-Activity.png" width="250" height="520"/>
+
+</br>
+
+| PlayerList  | PlayerDetails | Maps |
+| ----- | ------------ | ------------ |
+|<img src="https://i.ibb.co/nC19cPP/Playerlist.png" width="250" height="520"/>|<img src="https://i.ibb.co/6m1WM5Z/Player-Details.png" width="250" height="520"/>|<img src="https://i.ibb.co/MGSfyLC/Maps-Fragment.png" width="250" height="520"/>
 
 
 <h2 align="left">Introduction Video Link:</h2>
