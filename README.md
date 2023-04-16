@@ -43,4 +43,4 @@
 <h2 align="left">Introduction Video Link:</h2>
 
 
-[![SocialMatch-Application Video](https://i.ibb.co/Y0sBNdf/resim-2023-04-16-154155333.png)](https://www.youtube.com/watch?v=ZtLP-4F1WGA)
+[![SocialMatch-Application Video](https://i.ibb.co/QdgCc4M/tan-t-m.png)](https://www.youtube.com/watch?v=ZtLP-4F1WGA)
