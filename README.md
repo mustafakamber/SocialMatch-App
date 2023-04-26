@@ -18,6 +18,8 @@
 
 - CircleImageView
 
+- SearchView
+
 - Picasso
 
 - Google Maps Services
